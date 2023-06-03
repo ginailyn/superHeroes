@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+  
+}
+
+
+:root{
+--color-verde:#1CD1B0;
+--color-azul:#00669F;
+
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+#franjaHeroes{ 
+    
+  /*  padding: 20px 0 20px 10px;*/
+    box-sizing: border-box;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    }   
+
+.color_franja_verde{
+    background-color:var(--color-verde);
+    height: 38px;
+}
+
+.color_franja_azul{
+    background-color:var(--color-azul);
+    height: 101px;
+}
+
+.color_franja_footer{
+    background-color:var(--color-azul);
+    height: 51px;
+}
+
+.mover-izq { 
+    text-align: left;
+}
+
+
+h3{
+    background-color:var(--color-verde);
+    height: 38px;
+    border-color: black;
+    line-height: 38px;
+    text-align: center;
+    padding-left: 27px;
+    font-size: 15px;
+}
+
+h2{
+    background-color:var(--color-azul);
+    height: 101px;
+    line-height: 101px;
+    text-align: center;
+    padding-left: 27px;
+    font-size: 40px;
+}
+
+
+h4 {
+    background-color: var(#00669F);
+    height: 51px; 
+    line-height: 51px;
+    text-align: center;
+    padding-left: 27px;
+    font-size: 16px;
+    margin-top: 146px;
+}
+    
+
+main{
+    margin-top:150px;
+ /*   margin-left: 32px;
+    margin-right: 32px;*/
+    height: 530px;
+    border: 3px solid white;
+    justify-content: space-between;
+
+}
+
+.centrado {
+    text-align: center;
+}
+
+.justificado{
+    text-align:center;
+}
+
+/*Prueba de una especie de Grilla con div*/
+.fila{
+    width: 100vw;
+    margin: auto;
+    padding: 0 4.4%;
+}
+
+.columna {
+    float: left;
+    width: 30%;
+    background-color: #F3F3F3;
+    margin:0 4.4%;
+
+}
+
+/*.fila::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding-left: 20px;
+
+}*/
+
+.corazon{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.fotoBatman,.fotoHarley,.otrafotoBatman  {
+    position: relative;
+    border-radius: 50%;
+    margin-left: 27.2%;
+    margin-top: 112px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.foto_fondoBatman1{
+    height: 550px;
+    width: 300px;
+    background-image: url('../img/fondo_batman.png');
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-right: 30px;
+  
+ 
+}
+
+.foto_fondoHarley{
+    height: 550px;
+    width: 300px;
+    background-image: url('../img/fondo_harleyqueen.png');
+    background-repeat: no-repeat;
+ 
+    padding-left: 15px;
+    padding-right: 30px;}
+
+.foto_fondoBatman2{
+    height: 550px;
+    width: 300px;
+
+    background-image: url('../img/fondo_batman.png');
+    background-repeat: no-repeat;
+
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+
+/*img {
+    /* Para que sea responsiva 
+    width: 100%;
+}*/
