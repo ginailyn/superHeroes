@@ -115,6 +115,28 @@ main{
 
 }
 
+
+button {
+    background-color: #00669F;
+    width: 130px;
+    height: 48.52px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 47.5px;
+    color: white;
+    border: none;
+
+}
+
+.button1{
+
+    margin-top: 12px;
+  
+
+}
+
 /*.fila::after {
     content: "";
     clear: both;
